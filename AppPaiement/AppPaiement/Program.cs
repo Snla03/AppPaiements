@@ -13,5 +13,12 @@ internal class Program
         carte1.AfficherDetails();
         carte2.AfficherDetails();
         carte3.AfficherDetails();
+
+
+        Paypal pay1 = new Paypal("travail boreal", 1000, "achillenogue@gmail");
+        Paypal pay2 = new Paypal("acteur ", 5000, "achillenogue@icloud.com");
+
+        pay1.AfficherDetails();
+        pay2.AfficherDetails();
     }
 }
