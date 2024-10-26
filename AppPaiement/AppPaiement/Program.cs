@@ -20,5 +20,11 @@ internal class Program
 
         pay1.AfficherDetails();
         pay2.AfficherDetails();
+
+        Utilisateur utilisateur = new Utilisateur("loic achille");
+        utilisateur.AjouterPaiement(carte1);
+        utilisateur.AjouterPaiement(carte2);
+        utilisateur.AjouterPaiement(pay1);
+        utilisateur.AjouterPaiement(pay2);
     }
 }

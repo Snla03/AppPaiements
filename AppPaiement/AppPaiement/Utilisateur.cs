@@ -23,16 +23,17 @@ namespace AppPaiement
             foreach (var paiement in Paiements)
             {
                 paiement.AfficherDetails();
-         
+
             }
-            void AjouterPaiement(Paiement paiement)
+        }
+           public void AjouterPaiement(Paiement paiement)
             {
                 Paiements.Add(paiement);
             }
            
               
             
-        }
+        
 
     }
 }
